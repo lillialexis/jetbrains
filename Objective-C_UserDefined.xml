@@ -1,4 +1,4 @@
-<templateSet group="Misc. User Defined">
+<templateSet group="Objective-C_UserDefined">
   <template name="inith" value="- (id)init;&#10;+ (id)$CLASS$;$END$" description="Insert instance and class constructor declarations" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="decapitalize(fileNameWithoutExtension())" defaultValue="decapitalize(fileNameWithoutExtension())" alwaysStopAt="true" />
     <context>
