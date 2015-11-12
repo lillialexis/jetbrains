@@ -1,0 +1,7 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="JavaOnly" />
+    <option name="defaultScopeName" value="JavaOnly" />
+    <option name="SEARCH_SCOPE" value="JavaOnly" />
+  </component>
+</application>

@@ -1,0 +1,57 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>newdata</find>
+      <find>rviService</find>
+      <find>timeout</find>
+      <find>abcde</find>
+      <find>request</find>
+      <find>requestProgress</find>
+      <find>gson</find>
+      <find>guestInvokedService</find>
+      <find>hvacapplication</find>
+      <find>&quot;user&quot;</find>
+      <find>&quot;Userdata&quot;</find>
+      <find>sharedprefs</find>
+      <find>sharedpref</find>
+      <find>sharedpreferences</find>
+      <find>ourInstance</find>
+      <find>sharedPref</find>
+      <find>assertEquals(userCredentials.getValidFrom(),</find>
+      <find>M&quot;);</find>
+      <find>Z&quot;);</find>
+      <find>0&quot;);</find>
+      <find>format</find>
+      <find>SimpleDateFormat</find>
+      <find>prefs</find>
+      <find>pref_rvi_server</find>
+      <find>onPacketParsed</find>
+      <find>onRVIDidReceivePacket</find>
+      <find>mListener</find>
+      <find>connectCloud</find>
+      <find>BLUETOOTH_</find>
+      <find>match</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>(TAG + &quot;(&quot; + android.os.Process.getThreadPriority(android.os.Process.myTid()) + &quot;)&quot;</replace>
+      <replace>trunk</replace>
+      <replace>share</replace>
+      <replace>revoke</replace>
+      <replace>panic</replace>
+      <replace>lock</replace>
+      <replace>find</replace>
+      <replace>stop</replace>
+      <replace>start</replace>
+      <replace>lights</replace>
+      <replace>assertEquals(</replace>
+      <replace>M&quot;, userCredentials.getValidFrom());</replace>
+      <replace>M&quot;, userCredentials.getValidTo());</replace>
+      <replace>z&quot;, userCredentials.getValidTo());</replace>
+      <replace>0&quot;, userCredentials.getValidFrom());</replace>
+      <replace>preferences</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/Android/HVACDemo/app</dir>
+    </dirStrings>
+  </component>
+</application>
