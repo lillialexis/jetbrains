@@ -16,4 +16,20 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="testcase" value="public final void test$NAME$() {&#10;    $end$assertTrue(&quot;Implement test case&quot;, false);&#10;}&#10;" description="Test case method for TestCase test files" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="logtag" value="@SuppressLint(&quot;LongLogTag&quot;)&#10;" description="SuppressLint macro for suppressing the long log tag warning" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
